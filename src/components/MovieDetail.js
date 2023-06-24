@@ -6,8 +6,8 @@ function MovieDetail({ match }) {
 
     useEffect(() => {
         fetch(`http://localhost:3001/movies/${match.params.id}`)
-            .then(response => response.json())
-            .then(data => setMovie(data));
+            .then(res => res.json())
+            .then(setMovie);
     }, [match.params.id]);
 
     return (

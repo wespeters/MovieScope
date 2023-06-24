@@ -12,7 +12,7 @@ function AddMovieForm() {
             },
             body: JSON.stringify({ title: title }),
         })
-            .then(response => response.json())
+            .then(res => res.json())
             .then(data => window.location.href = '/')
             .catch((error) => {
                 console.error('Error:', error);

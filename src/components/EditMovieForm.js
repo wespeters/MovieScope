@@ -5,7 +5,7 @@ function EditMovieForm({ match }) {
 
     useEffect(() => {
         fetch(`http://localhost:3001/movies/${match.params.id}`)
-            .then(response => response.json())
+            .then(res => res.json())
             .then(data => setTitle(data.title));
     }, [match.params.id]);
 

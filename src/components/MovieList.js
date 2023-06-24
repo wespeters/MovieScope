@@ -7,8 +7,8 @@ function MovieList() {
 
     useEffect(() => {
         fetch('http://localhost:3001/movies')
-            .then(response => response.json())
-            .then(data => setMovies(data));
+            .then(res => res.json())
+            .then(setMovies);
     }, []);
 
     return (
