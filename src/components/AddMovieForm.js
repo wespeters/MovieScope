@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 
 function AddMovieForm() {
     const [title, setTitle] = useState('');
+    const [director, setDirector] = useState("");
+    const [description, setDescription] = useState("");
+    const [rating, setRating] = useState("");
+    const [img, setImg] = useState("");
 
     function handleSubmit(event) {
         event.preventDefault();
@@ -23,7 +27,23 @@ function AddMovieForm() {
         <form onSubmit={handleSubmit}>
             <label>
                 Title:
-                <input type="text" value={title} onChange={e => setTitle(e.target.value)} />
+                <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} />
+            </label>
+            <label>
+                Director:
+                <input type="text" value={director} onChange={(e) => setDirector(e.target.value)} />
+            </label>
+            <label>
+                Description:
+                <textarea value={description} onChange={(e) => setDescription(e.target.value)} />
+            </label>
+            <label>
+                Rating:
+                <input type="number" min="0" max="10" value={rating} onChange={(e) => setRating(e.target.value)} />
+            </label>
+            <label>
+                Image URL:
+                <input type="text" value={img} onChange={(e) => setImg(e.target.value)} />
             </label>
             <input type="submit" value="Submit" />
         </form>
