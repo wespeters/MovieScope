@@ -1,5 +1,7 @@
+// ./src/components/MovieDetail.js
 import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import DeleteMovie from './DeleteMovie';
 
 function MovieDetail() {
     const [movie, setMovie] = useState({});
@@ -21,6 +23,7 @@ function MovieDetail() {
             <p>Director: {movie.director}</p>
             <p>Rating: {movie.rating}/10</p>
             <Link to={`/movies/${id}/edit`}>Edit</Link>
+            <DeleteMovie id={id} /> 
         </div>
     );
     

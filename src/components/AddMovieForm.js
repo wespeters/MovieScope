@@ -14,7 +14,13 @@ function AddMovieForm() {
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ title: title }),
+            body: JSON.stringify({
+                title: title,
+                director: director,
+                description: description,
+                rating: rating,
+                img: img
+            }),
         })
             .then(res => res.json())
             .then(data => window.location.href = '/')
@@ -22,6 +28,7 @@ function AddMovieForm() {
                 console.error('Error:', error);
             });
     }
+    
 
     return (
         <form onSubmit={handleSubmit}>
