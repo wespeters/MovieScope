@@ -10,6 +10,8 @@ function MovieDetail() {
             .then(res => res.json())
             .then(setMovie);
     }, [id]);  // Listen for changes in the id
+    
+    console.log(movie.img)
 
     return (
         <div>
@@ -17,10 +19,11 @@ function MovieDetail() {
             <img src={movie.img} alt={movie.title} />
             <p>{movie.description}</p>
             <p>Director: {movie.director}</p>
-            <p>Rating: {movie.rating}</p>
+            <p>Rating: {movie.rating}/10</p>
             <Link to={`/movies/${id}/edit`}>Edit</Link>
         </div>
     );
+    
 }
 
 export default MovieDetail;

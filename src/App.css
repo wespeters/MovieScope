@@ -45,6 +45,14 @@
   margin: 16px;
   border-radius: 8px;
   max-width: 300px;
+  text-align: center;
+
+}
+
+.movie-img {
+  width: 200px;
+  height: 260px;
+  object-fit: cover;
 }
 
 .movie-list {
@@ -75,4 +83,8 @@
 
 .navbar li {
   text-decoration: none;
+}
+
+.search-container {
+  text-align: center;
 }
