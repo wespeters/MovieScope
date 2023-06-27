@@ -7,10 +7,10 @@ function MovieCard({ movie }) {
         <Link to={`/movie/${movie.id}`} className="movie-card">
             <div>
                 <h2>{movie.title}</h2>
-                <img src={movie.img} alt={movie.title} />
+                <img className="movie-img" src={movie.img} alt={movie.title} />
                 <p>{movie.description}</p>
                 <p>Director: {movie.director}</p>
-                <p>Rating: {movie.rating}</p>
+                <p>Rating: {movie.rating}/10</p>
             </div>
         </Link>
     );
