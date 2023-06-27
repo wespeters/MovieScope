@@ -1,11 +1,11 @@
 import React from "react";
+import "./Search.css";
 
 function Search({ setSearchTerm }) {
     
     const handleSubmit = (e) => e.preventDefault()
 
     return (
-        <header>
             <form className="search" onSubmit={handleSubmit}>
                 <input 
                     className="search_input"
@@ -15,7 +15,6 @@ function Search({ setSearchTerm }) {
                     onChange={(e) => setSearchTerm(e.target.value)}
                 />
             </form>
-        </header>
     )
 }
 
