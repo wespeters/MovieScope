@@ -4,7 +4,7 @@ import NavBar from './components/NavBar';
 import MovieList from './components/MovieList';
 import MovieDetail from './components/MovieDetail';
 import AddMovieForm from './components/AddMovieForm';
-import EditMovieForm from './components/EditMovieForm';  // Don't forget to import the component
+import EditMovieForm from './components/EditMovieForm';  
 
 function App() {
   return (
