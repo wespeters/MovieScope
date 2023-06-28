@@ -1,4 +1,9 @@
+.search-container {
+    text-align: center;
+}
+
 .search_input {
     width: 50%;
     height: 25px;
+    margin-top: 1%;
 }

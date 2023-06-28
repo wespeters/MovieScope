@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import MovieCard from './MovieCard';
 import '../App.css';
 import Search from './Search';
+import './MovieList.css'
 
 function MovieList() {
     const [movies, setMovies] = useState([]);

@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import DeleteMovie from './DeleteMovie';
+import "./MovieDetail.css"
 
 function MovieDetail() {
     const [movie, setMovie] = useState({});

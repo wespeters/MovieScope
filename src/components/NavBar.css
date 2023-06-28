@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    background: #222425;
+    border: 1px solid black;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navlink {
+    color: #f3f4f5;
+}
+
+.navbar li {
+    text-decoration: none;
+}
