@@ -1,84 +1,84 @@
 {
   "movies": [
-      {
-          "id": 1,
-          "title": "John Wick",
-          "img": "https://puu.sh/JK5JL.png",
-          "description": "An ex-hitman comes out of retirement to track down the gangsters who killed his dog and stole his car.",
-          "director": "Chad Stahelski",
-          "rating": 10
-      },
-      {
-          "id": 2,
-          "title": "Forrest Gump",
-          "img": "https://puu.sh/JK682.jpg",
-          "description": "The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
-          "director": "Robert Zemeckis",
-          "rating": 9
-      },
-      {
-          "id": 3,
-          "title": "Oldboy",
-          "img": "https://puu.sh/JK68a.jpg",
-          "description": "After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days.",
-          "director": "Park Chan-wook",
-          "rating": 8
-      },
-      {
-          "id": 4,
-          "title": "Bad Boys",
-          "img": "https://puu.sh/JK68v.jpg",
-          "description": "Two hip detectives protect a witness to a murder while investigating a case of stolen heroin from the evidence storage room from their police precinct.",
-          "director": "Michael Bay",
-          "rating": 6
-      },
-      {
-          "id": 5,
-          "title": "Avatar",
-          "img": "https://puu.sh/JK68y.jpg",
-          "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
-          "director": "James Cameron",
-          "rating": "9"
-      },
-      {
-          "id": 6,
-          "title": "Star Wars: Episode IV - A New Hope",
-          "img": "https://puu.sh/JK68R.png",
-          "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
-          "director": "George Lucas",
-          "rating": "9"
-      },
-      {
-          "id": 7,
-          "title": "The Shawshank Redemption",
-          "img": "https://puu.sh/JK68p.jpg",
-          "description": "Over the course of several years, two convicts form a friendship, seeking consolation and, eventually, redemption through basic compassion.",
-          "director": "Frank Darabont",
-          "rating": "10"
-      },
-      {
-          "id": 8,
-          "title": "Pulp Fiction",
-          "img": "https://puu.sh/JK68t.jpg",
-          "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
-          "director": "Quentin Tarantino",
-          "rating": "9"
-      },
-      {
-          "id": 9,
-          "title": "Left Behind",
-          "img": "https://puu.sh/JK68u.jpg",
-          "description": "A small group of survivors is left behind after millions of people suddenly vanish and the world is plunged into chaos and destruction.",
-          "director": "Vic Armstrong",
-          "rating": "2"
-      },
-      {
-          "id": 10,
-          "title": "Gotti",
-          "img": "https://puu.sh/JK68r.jpg",
-          "description": "The story of crime boss John Gotti and his son.",
-          "director": "Kevin Connoly",
-          "rating": "3"
-      }
+    {
+      "title": "John Wick",
+      "director": "Chad Stahelski",
+      "description": "An ex-hitman comes out of retirement to track down the gangsters who killed his dog and stole his car.",
+      "rating": 10,
+      "img": "https://puu.sh/JK5JL.png",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "title": "Forrest Gump",
+      "img": "https://puu.sh/JK682.jpg",
+      "description": "The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
+      "director": "Robert Zemeckis",
+      "rating": 9
+    },
+    {
+      "title": "Oldboy",
+      "director": "Park Chan-wook",
+      "description": "After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days.",
+      "rating": 8,
+      "img": "https://puu.sh/JK68a.jpg",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "title": "Bad Boys",
+      "img": "https://puu.sh/JK68v.jpg",
+      "description": "Two hip detectives protect a witness to a murder while investigating a case of stolen heroin from the evidence storage room from their police precinct.",
+      "director": "Michael Bay",
+      "rating": 6
+    },
+    {
+      "id": 5,
+      "title": "Avatar",
+      "img": "https://puu.sh/JK68y.jpg",
+      "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+      "director": "James Cameron",
+      "rating": "9"
+    },
+    {
+      "id": 6,
+      "title": "Star Wars: Episode IV - A New Hope",
+      "img": "https://puu.sh/JK68R.png",
+      "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
+      "director": "George Lucas",
+      "rating": "9"
+    },
+    {
+      "id": 7,
+      "title": "The Shawshank Redemption",
+      "img": "https://puu.sh/JK68p.jpg",
+      "description": "Over the course of several years, two convicts form a friendship, seeking consolation and, eventually, redemption through basic compassion.",
+      "director": "Frank Darabont",
+      "rating": "10"
+    },
+    {
+      "id": 8,
+      "title": "Pulp Fiction",
+      "img": "https://puu.sh/JK68t.jpg",
+      "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "director": "Quentin Tarantino",
+      "rating": "9"
+    },
+    {
+      "id": 9,
+      "title": "Left Behind",
+      "img": "https://puu.sh/JK68u.jpg",
+      "description": "A small group of survivors is left behind after millions of people suddenly vanish and the world is plunged into chaos and destruction.",
+      "director": "Vic Armstrong",
+      "rating": "2"
+    },
+    {
+      "id": 10,
+      "title": "Gotti",
+      "img": "https://puu.sh/JK68r.jpg",
+      "description": "The story of crime boss John Gotti and his son.",
+      "director": "Kevin Connoly",
+      "rating": "3"
+    }
   ]
 }

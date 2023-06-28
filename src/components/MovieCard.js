@@ -5,7 +5,7 @@ import './MovieCard.css'
 
 function MovieCard({ movie }) {
     return (
-        <Link to={`/movie/${movie.id}`} className="movie-card">
+        <Link to={`/movies/${movie.id}`} className="movie-card">
             <div>
                 <h2>{movie.title}</h2>
                 <img className="movie-img" src={movie.img} alt={movie.title} />

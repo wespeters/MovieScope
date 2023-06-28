@@ -4,21 +4,20 @@ import NavBar from './components/NavBar';
 import MovieList from './components/MovieList';
 import MovieDetail from './components/MovieDetail';
 import AddMovieForm from './components/AddMovieForm';
-
+import EditMovieForm from './components/EditMovieForm';  // Don't forget to import the component
 
 function App() {
-  
-
   return (
     <Router>
       <NavBar />
       <Routes>
         <Route path="/" element={<MovieList />} />
-        <Route path="/movie/:id" element={<MovieDetail />} />
+        <Route path="/movies" element={<MovieList />} />
+        <Route path="/movies/:id" element={<MovieDetail />} />
         <Route path="/add-movie" element={<AddMovieForm />} />
+        <Route path="/movies/:id/edit" element={<EditMovieForm />} />
       </Routes>
     </Router>
-      
   );
 }
 
