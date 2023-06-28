@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-function DeleteMovie({ id }) {
+function DeleteMovie({ id, className }) {
     const navigate = useNavigate();
 
     function handleDelete() {
@@ -21,7 +21,7 @@ function DeleteMovie({ id }) {
     }
 
     return (
-        <button onClick={handleDelete}>Delete Movie</button>
+        <button className={className} onClick={handleDelete}>Delete Movie</button>
     );
 }
 

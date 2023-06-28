@@ -21,7 +21,7 @@ function MovieDetail() {
             <p>Director: {movie.director}</p>
             <p>Rating: {movie.rating}/10</p>
             <div><Link to={`/movies/${id}/edit`}>Edit</Link></div>
-            <div><DeleteMovie id={id} /></div>
+            <div><DeleteMovie id={id} className="delete-movie-button" /></div>
         </div>
     );
     

@@ -9,3 +9,7 @@ div img {
     object-fit: scale-down;
     margin-top: 20px;
 }
+
+.delete-movie-button {
+    margin-top: 10px;
+}
