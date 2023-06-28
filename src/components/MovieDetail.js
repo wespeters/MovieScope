@@ -14,14 +14,14 @@ function MovieDetail() {
     }, [id]); 
     
     return (
-        <div>
+        <div className='movie-detail'>
             <h1>{movie.title}</h1>
             <img src={movie.img} alt={movie.title} />
             <p>{movie.description}</p>
             <p>Director: {movie.director}</p>
             <p>Rating: {movie.rating}/10</p>
-            <Link to={`/movies/${id}/edit`}>Edit</Link>
-            <DeleteMovie id={id} /> 
+            <div><Link to={`/movies/${id}/edit`}>Edit</Link></div>
+            <div><DeleteMovie id={id} /></div>
         </div>
     );
     
