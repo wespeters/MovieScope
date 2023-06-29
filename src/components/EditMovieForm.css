@@ -1,16 +1,49 @@
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+.movie-form {
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+    background: #b2b6b9;
+    padding: 10px;
+    border-radius: 25px;
 }
 
 label {
+    width: 200px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.form-group {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-input[type="submit"] {
-    margin-top: 20px;
+.input-text, .textarea {
+    width: 400px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.textarea {
+    height: 100px;
+}
+
+.input-rating {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 2%;
+}
+
+.submit-button {
+    width: 100px;
 }

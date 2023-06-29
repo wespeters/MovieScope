@@ -45,29 +45,44 @@ function EditMovieForm() {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
-            <label>
-                Title:
-                <input type="text" value={title} onChange={e => setTitle(e.target.value)} />
-            </label>
-            <label>
-                Director:
-                <input type="text" value={director} onChange={e => setDirector(e.target.value)} />
-            </label>
-            <label>
-                Description:
-                <textarea value={description} onChange={e => setDescription(e.target.value)} />
-            </label>
-            <label>
-                Rating:
-                <input type="number" min="0" max="10" value={rating} onChange={e => setRating(e.target.value)} />
-            </label>
-            <label>
-                Image URL:
-                <input type="text" value={img} onChange={e => setImg(e.target.value)} />
-            </label>
-            <input type="submit" value="Submit" />
-        </form>
+        <div className='movie-form'>
+            <h2>Edit Movie Form</h2>
+            <form onSubmit={handleSubmit}>
+                <div className="form-group">
+                    <label>Title:</label>
+                    <br />
+                    <input className="input-text" type="text" value={title} onChange={e => setTitle(e.target.value)} />
+                </div>
+                <br />
+                <div className="form-group">
+                    <label>Director:</label>
+                    <br />
+                    <input className="input-text" type="text" value={director} onChange={e => setDirector(e.target.value)} />
+                </div>
+                <br />
+                <div className="form-group">
+                    <label>Description:</label>
+                    <br />
+                    <textarea className="textarea" value={description} onChange={e => setDescription(e.target.value)} />
+                </div>
+                <br />
+                <div className="form-group">
+                    <label>Rating:</label>
+                    <br />
+                    <input className="input-rating" type="number" min="0" max="10" value={rating} onChange={e => setRating(e.target.value)} />
+                </div>
+                <br />
+                <div className="form-group">
+                    <label>Image URL:</label>
+                    <br />
+                    <input className="input-text" type="text" value={img} onChange={e => setImg(e.target.value)} />
+                </div>
+                <br />
+                <center>
+                    <input className="submit-button" type="submit" value="Submit" />
+                </center>
+            </form>
+        </div>
     );
 }
 
