@@ -11,6 +11,11 @@
 
 }
 
+.movie-card:hover {
+    cursor: pointer;
+    background: #8b9296;
+}
+
 .movie-img {
     width: 200px;
     height: 260px;

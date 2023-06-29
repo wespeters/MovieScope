@@ -9,6 +9,10 @@ const NavBar = () => {
                 <li><Link to="/" className='navlink'>Home</Link></li>
                 <li><Link to="/add-movie" className='navlink'>Add Movie</Link></li>
             </ul>
+            <div className='nav-title'>
+                <h1>MovieScope</h1>
+            </div>
+            
         </nav>
     );
 }
