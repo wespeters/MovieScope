@@ -66,7 +66,7 @@ Here is a breakdown of the code for each component:
 - Imports the necessary libraries and components.
 - Defines the `App` function, which returns the component to be rendered.
 - Inside the `App` function, `Router`, `NavBar` and `Routes` are used to set up the application's routes and render the navbar.
-- Three `Route` components are defined, each with a `path` prop indicating the URL path for the route and an `element` prop providing the component to render when the route is active.
+- Five `Route` components are defined, each with a `path` prop indicating the URL path for the route and an `element` prop providing the component to render when the route is active.
 
 **NavBar.js**
 - Imports the necessary libraries.
