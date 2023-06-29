@@ -1,4 +1,7 @@
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -10,16 +13,36 @@
     border: 1px solid black;
 }
 
+.nav-title, .nav-title h1 {
+    flex: auto;
+    text-align: left;
+    color: #f3f4f5;
+    margin: 0;
+    font-size: 30px;
+}
+
 .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
+    flex: 1;
     gap: 20px;
 }
 
 .navlink {
     color: #f3f4f5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navlink:hover {
+    color: #d8dbdc;
+}
+
+.navlink:active {
+    cursor: pointer;
+    color: #b2b6b9;
 }
 
 .navbar li {
